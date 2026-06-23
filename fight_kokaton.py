@@ -148,7 +148,7 @@ class Score:
     def __init__(self):
         self.fonto = pg.font.Font(None, 50)
         self.value = 0
-        self.img = self.fonto.render(f"Score:", 0, (0, 0, 255))
+        self.img = self.fonto.render(f"Score:", 0, (0, 0, 255))#青色の文字
         self.rct = self.img.get_rect()
         self.rct.center = [100, HEIGHT - 50]
 
