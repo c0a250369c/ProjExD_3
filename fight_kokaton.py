@@ -157,7 +157,9 @@ class Score:
         screen.blit(self.img, self.rct)
 
 
-
+class Explosion:
+    def __init__(self):
+        self.ex = exception.gif
 
 def main():
     pg.display.set_caption("たたかえ！こうかとん")
